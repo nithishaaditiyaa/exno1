@@ -90,11 +90,11 @@ print("Outliers:",outliers_z,"\n")
      
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
-
+```
 <img width="785" height="1079" alt="1" src="https://github.com/user-attachments/assets/14f4ab2f-f9ee-4bcd-9930-24d80760382f" />
 
 <img width="349" height="383" alt="Screenshot 2026-02-06 111848" src="https://github.com/user-attachments/assets/bd6d7ce8-52e0-4a57-8d95-c90b01557ee3" />
-
+```
 iris.py:
 
 import pandas as pd
