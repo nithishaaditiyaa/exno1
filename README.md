@@ -90,11 +90,17 @@ print("Outliers:",outliers_z,"\n")
      
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
+
 ```
+
 <img width="785" height="1079" alt="1" src="https://github.com/user-attachments/assets/14f4ab2f-f9ee-4bcd-9930-24d80760382f" />
 
+
 <img width="349" height="383" alt="Screenshot 2026-02-06 111848" src="https://github.com/user-attachments/assets/bd6d7ce8-52e0-4a57-8d95-c90b01557ee3" />
+
 ```
+
+
 iris.py:
 
 import pandas as pd
@@ -163,9 +169,15 @@ print("Outliers:",outliers_z,"\n")
      
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
+```
 
 <img width="663" height="1054" alt="Screenshot 2026-02-06 152158" src="https://github.com/user-attachments/assets/0ab775e4-cbbf-49f1-9687-c73e4801488f" />
+
+
 <img width="673" height="901" alt="Screenshot 2026-02-06 152208" src="https://github.com/user-attachments/assets/9ee6b89f-16d5-407d-be15-8f454b6e728e" />
+
+```
+
 
 Data_set.py:
 
@@ -243,9 +255,18 @@ print("Outliers:",outliers_z,"\n")
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
 
+```
+
 <img width="778" height="924" alt="Screenshot 2026-02-06 152435" src="https://github.com/user-attachments/assets/048006af-86c1-409d-8aef-538b6f4fe546" />
+
+
 <img width="763" height="880" alt="Screenshot 2026-02-06 152446" src="https://github.com/user-attachments/assets/975bfb4b-d765-4d79-b112-9b307e4f244a" />
+
+
 <img width="743" height="733" alt="Screenshot 2026-02-06 152452" src="https://github.com/user-attachments/assets/22c969e1-20f5-47c3-87ed-184e4f5c29f3" />
+
+```
+
 
 SAMPLEIDS.py:
 
@@ -316,9 +337,17 @@ print("Outliers:",outliers_z,"\n")
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
 
+```
 <img width="687" height="565" alt="Screenshot 2026-02-06 153133" src="https://github.com/user-attachments/assets/5f3b09f8-d8eb-47dd-9bbe-d2fe66b19b85" />
+
+
 <img width="765" height="1069" alt="Screenshot 2026-02-06 153143" src="https://github.com/user-attachments/assets/15c34aad-04c0-42f2-9220-36eebc50c80a" />
+
+
 <img width="671" height="671" alt="Screenshot 2026-02-06 153149" src="https://github.com/user-attachments/assets/ea779339-aa99-4220-97e8-4ac61831686b" />
+
+```
+
 
 Loan_Data.py:
 
@@ -389,13 +418,23 @@ print("Outliers:",outliers_z,"\n")
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
 
+```
+
 <img width="685" height="1041" alt="Screenshot 2026-02-06 153432" src="https://github.com/user-attachments/assets/21e8a36b-8b51-4963-9709-908b09fc7e1b" />
+
+
 <img width="673" height="852" alt="Screenshot 2026-02-06 153441" src="https://github.com/user-attachments/assets/aebf1ab5-0c66-4490-80a0-5b8ce5ebaad1" />
+
+
 <img width="688" height="900" alt="Screenshot 2026-02-06 153451" src="https://github.com/user-attachments/assets/253ad889-be9e-44b8-9755-804fa6688827" />
+
+
 <img width="801" height="1065" alt="Screenshot 2026-02-06 153501" src="https://github.com/user-attachments/assets/7e35c1eb-4112-4f34-8b7f-83cebb28784d" />
+
+
 <img width="687" height="728" alt="Screenshot 2026-02-06 153509" src="https://github.com/user-attachments/assets/6651c6fe-bcb9-4f56-8d16-6d3176e0f3b7" />
 
-```
+
 # Result
 
 The given data has been successfully read, cleaned by handling duplicates and missing values, and saved to a new file named cleaned_data.csv.
